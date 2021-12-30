@@ -1,0 +1,238 @@
+/* html, body, main, header, div, a,button {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+    background-image: url("/assets/miami.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 3rem;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+
+.image {
+    display: block;
+    width: 50%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 4vh;
+    background-color: rgba(121, 200, 255, 0.39);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid gray;
+}
+
+header > div {
+    height: 100%;
+    font-size: 1.5rem;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+header > div > a {
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+header > div > a:hover {
+    color: blue;
+}
+
+footer {
+    font-size: 2rem;
+    color: black;
+}
+
+button {
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 9px;
+    margin: 4px 2px;
+    cursor: pointer;
+} */
+html, body, main, header, div, a {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+    background-image: url("/assets/miami.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 3rem;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 4vh;
+    background-color: rgba(121, 200, 255, 0.39);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid gray;
+}
+
+header > div {
+    height: 100%;
+    font-size: 1.5rem;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+header > div > a {
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+header > div > a:hover {
+    color: purple;
+}
+
+footer {
+    font-size: 12rem;
+    color: black;
+}
+
+/* .container {
+    position: relative;
+    width: 100%;
+} */
+
+
+/* .image {
+    display: block;
+    width: 50%;
+    height: auto;
+} */
+
+/* .overlay  {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #8f00ba;
+} */
+.container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 75%;
+    height: auto;
+    
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 75%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #8f00ba;
+  }
+
+.container:hover .overlay {
+    opacity: 1;
+}
+/* button {
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 9px;
+    margin: 4px 2px;
+    cursor: pointer;
+} */
+
+.text{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align:center;
+    font-size:20px;
+    font-weight:700;
+    font-family:"Times New Roman", Times, serif;
+    width:340px;
+    height:217px;
+  }
